@@ -1,0 +1,23 @@
+[project]
+name = "football-analysis"
+version = "0.1.0"
+description = "Broadcast football video analysis: tracking, teams, possession, shots, goals and an HTML report"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "opencv-python>=5.0.0.93",
+    "ultralytics>=8.4.175",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 120
