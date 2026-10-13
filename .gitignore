@@ -11,5 +11,5 @@ wheels/
 
 # Models and run outputs
 models/
-output/
+output/cache/
 *.pt
